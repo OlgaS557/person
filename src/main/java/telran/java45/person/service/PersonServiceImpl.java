@@ -2,7 +2,6 @@ package telran.java45.person.service;
 
 import java.util.stream.Collectors;
 
-import org.apache.tomcat.jni.Address;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +13,6 @@ import telran.java45.person.dto.CityPopulationDto;
 import telran.java45.person.dto.PersonDto;
 import telran.java45.person.dto.exceptions.PersonNotFoundException;
 import telran.java45.person.model.Person;
-import telran.java45.post.dto.PostDto;
 
 @Service
 @RequiredArgsConstructor
