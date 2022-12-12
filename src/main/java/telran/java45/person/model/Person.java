@@ -21,7 +21,6 @@ import lombok.Setter;
 public class Person implements Serializable {
 
 	private static final long serialVersionUID = -800424324198884032L;
-	
 	@Id
 	Integer id;
 	@Setter
@@ -30,5 +29,13 @@ public class Person implements Serializable {
 	@Setter
 //	@Embedded
 	Address address;
+
+
+	@Setter
+	String city;
+	@Setter
+	String street;
+	@Setter
+	Integer building;
 
 }
